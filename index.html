@@ -1,1 +1,82 @@
-Landing Page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneSticker</title>
+    <meta name="description" content="OneSticker is a versatile note-taking app that syncs across all devices. Available for MacOS, Windows, iOS, Android, and as a Web App.">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 95%;
+            font-family: 'Outfit', sans-serif;
+            background-color: #FFFCCA;
+        }
+
+        .background img {
+            width: 100%;
+            height: auto;
+            position: fixed;
+            bottom: 0;
+        }
+
+        .content {
+            position: relative;
+            padding-left: 80px;
+        }
+
+        h1 {
+            margin-top: 15px;
+            font-size: 70px;
+            font-weight: 600; /* Semibold */
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 400; /* Regular */
+            margin-top: 10px;
+        }
+
+        .buttons .button {
+            display: inline-block;
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 22px;
+            font-weight: 700; /* Bold */
+            text-decoration: none;
+        }
+
+        .get-app {
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 22px;
+            font-weight: 700; /* Bold */
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <img src="background.jpg" alt="Background">
+    </div>
+    <div class="content">
+        <h1>OneSticker<br>Always Synced<br>Every Platform, Every Device.</h1>
+        <p>*OneSticker is a note-taking app that seamlessly syncs your sticky notes across all platforms,, is currently available for free for a limited time.</p>
+        <div class="buttons">
+            <a class="get-app">Get App  ->  </a>
+            <a href="https://github.com/fengyiqicoder/OneStickerRelease/releases/download/1.0.0/OneSticker-1.0.0-universal.dmg" class="button">MacOS App</a>
+            <a href="https://github.com/fengyiqicoder/OneStickerRelease/releases/download/1.0.0/OneSticker.1.0.0.exe" class="button">Windows App</a>
+            <a href="https://testflight.apple.com/join/67uL7LXO" class="button" target="_blank">iOS App (TestFlight)</a>
+            <a href="https://github.com/fengyiqicoder/OneStickerRelease/releases/download/1.0.0/app-release.apk" class="button">Android App (APK)</a>
+            <a href="https://my.onesticker.app/" class="button" target="_blank" >Web App</a>
+        </div>
+        
+    </div>
+</body>
+</html>
